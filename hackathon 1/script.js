@@ -11,7 +11,7 @@ container.innerHTML = `
        </form>
   </div>
 </nav>
-<div class="main container col-md-6 col-lg-12 d-flex flex-column"  id='data-displayer'>
+<div class="main container col-md-6 col-lg-6 d-flex flex-column"  id='data-displayer'>
 </div>
 
 `;

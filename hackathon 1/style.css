@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  background-image: url("https://i.pinimg.com/originals/6d/c0/81/6dc08153a6141157758f397b755f9185.jpg");
+  opacity:0.8;
+  background-size:contain;
+}
+
+
+.whole{
+    display: flex;
+    flex-direction:column;
+    /* border:3px solid red; */
+    margin:0em;
+    column-gap:1em;
+}
+.navbar{
+    border: 2px solid rgb(3, 1, 1);
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: linear-gradient(180deg, rgb(246, 74, 74), rgba(91, 168, 241, 0.734));
+
+
+}
+.navbar-brand{
+    /* border: 2px solid yellow; */
+    color: white;
+    
+}
+
+.search{
+    background-color:black;
+    color:white;
+}
+
+.form-control{
+    background-color: rgb(160, 35, 35);
+    color: white;
+}
+#data-displayer{
+    display:flex;
+    flex-wrap:wrap;
+
+
+}
+.accordion{
+    opacity:1;
+    border: 3px solid red;
+    border-radius:10px;
+}
+.accordion-button{
+
+}
+
+
